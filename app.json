@@ -7,7 +7,7 @@
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/Ishan-EXE/MirrorX",
+    "repository": "https://github.com/IAvasthi/MirrorXImport",
     "website": "https://github.com/Ishan-EXE/MirrorX",
     "success_url": "https://t.me/IshanUpdates",
     "stack": "container",
@@ -18,10 +18,12 @@
       },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
+        "value": "1883536965:AAFeqO6W1o__vg9t6DItoGtMRrxHY3e8vmo",
         "required": true
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
+        "value": "1e4yF4hhGBFmm9yKbB1PM1K5fD3QJLEDV",
         "required": true
       },
       "DOWNLOAD_DIR": {
@@ -36,58 +38,72 @@
       },
       "OWNER_ID": {
         "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
+        "value": "743699734",
         "required": true
       },
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
+        "value": "17",
         "required": true
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
+        "value": "True",
         "required": false
       },
       "USE_SERVICE_ACCOUNTS": {
         "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
+        "value": "False",
         "required": false
       },
       "AUTHORIZED_CHATS": {
         "description": "Fill User ID and Chat ID of you want to authorize.",
+        "value": "1283563279 1812347548 1432469506 743699734 923285055 -1001457776064 -1001370861728 -1001390455323",
         "required": false
       },
       "INDEX_URL": {
         "description": "Refer to https://github.com/ParveenBhadooOfficial/Google-Drive-Index The URL should not have any trailing '/'.",
+        "value": "https://4.dragonmirror.workers.dev/0:/MirrorX",
         "required": false
       },
       "TELEGRAM_API": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": "2301370",
         "required": true
       },
       "TELEGRAM_HASH": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
+        "value": "9697379bfc5f448ccdc949da2614c812",
         "required": true
       },
       "UPTOBOX_TOKEN": {
         "description": "Uptobox premium token to mirror uptobox links. Get it from https://uptobox.com/my_account.",
+        "value": "https://4.dragonmirror.workers.dev/0:/MirrorX",
         "required": false
       },
       "MEGA_API_KEY": {
         "description": "Mega.nz api key to mirror mega.nz links. Get it from https://mega.nz/sdk.",
+        "value": "2Z43Fa5L",
         "required": false
       },
       "MEGA_EMAIL_ID": {
         "description": "Your email id you used to sign up on mega.nz.",
+        "value": "evangelisation@freeallapp.com",
         "required": false
       },
       "MEGA_PASSWORD": {
         "description": "Your password for your mega.nz account.",
+        "value": "expinfid",
         "required": false
       },
       "BLOCK_MEGA_LINKS": {
         "description": "If you want to remove mega.nz mirror support, set it to True.",
+        "value": "False",
         "required": false
       },
       "STOP_DUPLICATE_MIRROR": {
         "description": "If this field is set to True, bot will check file in Drive, if it is present in Drive, downloading will be stopped.",
+        "value": "True",
         "required": false
       },
       "SHORTENER": {
@@ -116,16 +132,13 @@
       },
       "BUTTON_THREE_NAME": {
         "description": "Extra buttons (optional).",
+        "value": "🔰Join Updates Channel🔰",
         "required": false
       },
       "BUTTON_THREE_URL": {
         "description": "Fill your URL if you are using extra buttons.",
+        "value": "https://t.me/IshanUpdates",
         "required": false
-      }
-    },
-    "addons": [
-      {
-        "plan": "heroku-postgresql"
       }
     ],
     "formation": {
