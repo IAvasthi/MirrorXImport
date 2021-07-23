@@ -139,7 +139,8 @@
         "description": "Fill your URL if you are using extra buttons.",
         "value": "https://t.me/IshanUpdates",
         "required": false
-      },
+      }
+    },
 
     "formation": {
             "worker": {
